@@ -13,7 +13,7 @@ if (x >= -1 && x <= 1)
     }
     if (y <= 0 && y >= -1)
     {
-        if (y != Math.Pow(-x, Math.E))
+        if (y == Math.Pow(-x, Math.E))
             Console.WriteLine("Входит");
         else
             Console.WriteLine("Не входит");
