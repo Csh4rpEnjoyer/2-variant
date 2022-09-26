@@ -6,7 +6,7 @@ if (x >= -1 && x <= 1)
 {
     if (y <= 1 && y >= 0)
     {
-        if (x + y == 1)
+        if (Math.Abs(x + y) == 1)
             Console.WriteLine("Входит");
         else
             Console.WriteLine("Не входит");
